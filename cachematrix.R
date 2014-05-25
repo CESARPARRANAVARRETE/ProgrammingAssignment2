@@ -21,10 +21,11 @@ get <- function() x
 ## Inverse of the matrix
 
 cacheSolve <- function(x, ...) {
-        ## Return a matrix that is the inverse of 'x'
+       
+
 m <- x$getMatrixCache()
 if(!is.null(m)) {
-        message("getting cacheddata")
+        message("getting cached data")
   			print("check")
         return(m)
 }
